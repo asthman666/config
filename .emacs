@@ -22,6 +22,8 @@
 (set-frame-height (selected-frame) 60)
 (set-frame-width (selected-frame) 80)
 
+(setq x-select-enable-clipboard t)
+
 (set-cursor-color "Black")
 (set-mouse-color "dark blue")
 (set-background-color "beige")       ; set the background color
