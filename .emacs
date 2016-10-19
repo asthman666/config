@@ -17,10 +17,12 @@
 (set-face-attribute 'default nil :height 120)
 
 (toggle-uniquify-buffer-names)
-(set-frame-position (selected-frame) 200 30)
 
-(set-frame-height (selected-frame) 60)
-(set-frame-width (selected-frame) 80)
+;(set-frame-position (selected-frame) 200 30)
+;(set-frame-height (selected-frame) 60)
+;(set-frame-width (selected-frame) 80)
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
 (setq x-select-enable-clipboard t)
 
